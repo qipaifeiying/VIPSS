@@ -1151,8 +1151,7 @@ bool readXYZ(string filename, vector<double>&v){
     }
     v.clear();
     double val;
-    while(!reader.eof()){
-        reader>>val;
+    while(reader >> val){
         v.push_back(val);
     }
     reader.close();
