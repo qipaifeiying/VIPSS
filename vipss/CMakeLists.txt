@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3 ")
 
-find_package(nlopt REQUIRED)
+find_package(NLopt REQUIRED)
 set(NLOPT_LIB_DIR "")
 set(NLOPT_LIB ${NLOPT_LIBRARIES})
 
